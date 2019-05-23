@@ -1,0 +1,147 @@
+body {
+    margin:0;
+    padding:0;
+    background-color: rgba(255, 252, 238, 0.918); /*whiterun background*/
+    font: 16px/1.6em normal Arial, Helvetica, Sans-serif;
+    color: rgb(73, 73, 73)
+}
+
+.container {
+    width:80%;
+    margin: auto;
+    overflow: hidden
+}
+
+.container2 {
+    width:90%;
+    margin: auto;
+    overflow: hidden
+}
+
+.main-header {
+    background-color: rgb(255, 235, 145); /*whiterun banner*/
+    border-bottom: solid 5px rgb(73, 73, 73);
+}
+
+.main-header h1 {
+    margin:0;
+    padding-top:20px;
+    padding-bottom:20px;
+    float:left;
+    text-transform:uppercase;
+}
+
+.main-header ul{
+    list-style-type: none;
+    margin:0;
+    padding:20px 0 0 0;
+    float:right
+}
+
+.main-header li{
+    float:left;
+    /*padding: 0 7px 0 7px;*/
+    padding:0;
+    text-transform:uppercase;
+    background-color: rgba(255, 252, 238, 0.918);
+    border: solid 1px;
+    border-color:  rgb(73, 73, 73);
+}
+
+.main-header li a{
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+    font-weight: bold;
+    text-align:center;
+    padding:5px;
+}
+
+#showcase {
+    margin:0;
+    background-image: url("../img/showcaseWhiterun.jpg");
+    padding: 250px 0 250px 0;
+    background-position: center;
+    border-bottom: solid 5px rgb(73, 73, 73);
+}
+
+#showcase h2 {
+    text-align: center;
+    margin:80px;
+    width:40%;
+    padding:20px;
+    background-color: rgba(73, 73, 73, 0.459);
+    border-radius: 25px;
+    color: rgba(255, 252, 238, 0.918);
+
+}
+
+.form section {
+    background-color: rgb(255, 235, 145);
+    border-bottom: solid 5px rgb(73, 73, 73);
+
+}
+
+.email {
+    height: 20px;
+    width: 250px;
+    margin-top: 18px;
+    font-size: 20px;
+    float:right;
+}
+
+.submit {
+    margin-top:18px;
+    height:26px;
+    float:right;
+}
+
+#box {
+    float:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*
+    text-shadow: 1px 1px 0 rgb(73, 73, 73),
+    -1px 1px 0 rgb(73, 73, 73),
+    1px -1px 0 rgb(73, 73, 73),
+    -1px -1px 0 rgb(73, 73, 73),
+    0px 1px 0 rgb(73, 73, 73),
+    0px -1px 0 rgb(73, 73, 73),
+    -1px 0px 0 rgb(73, 73, 73),
+    1px 0px 0 rgb(73, 73, 73),
+    2px 2px 0 rgb(73, 73, 73),
+    -2px 2px 0 rgb(73, 73, 73),
+    2px -2px 0 rgb(73, 73, 73),
+    -2px -2px 0 rgb(73, 73, 73),
+    0px 2px 0 rgb(73, 73, 73),
+    0px -2px 0 rgb(73, 73, 73),
+    -2px 0px 0 rgb(73, 73, 73),
+    2px 0px 0 rgb(73, 73, 73),
+    1px 2px 0 rgb(73, 73, 73),
+    -1px 2px 0 rgb(73, 73, 73),
+    1px -2px 0 rgb(73, 73, 73),
+    -1px -2px 0 rgb(73, 73, 73),
+    2px 1px 0 rgb(73, 73, 73),
+    -2px 1px 0 rgb(73, 73, 73),
+    2px -1px 0 rgb(73, 73, 73),
+    -2px -1px 0 rgb(73, 73, 73);
+    */
